@@ -68,4 +68,3 @@ vim.opt.expandtab = true
 -- Set ColorColumn
 vim.cmd("highlight ColorColumn ctermbg=0 guibg=Yellow")
 
--- vim: ts=2 sts=2 sw=2 et
