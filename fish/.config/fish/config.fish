@@ -40,3 +40,10 @@ if status is-interactive
     #Zoxide
     zoxide init --cmd cd fish | source
 end
+
+# pnpm
+set -gx PNPM_HOME "/home/parz-arch/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
