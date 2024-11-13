@@ -5,6 +5,7 @@
 
 -- Make line numbers default
 vim.opt.number = true
+
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
 vim.opt.relativenumber = true
@@ -69,5 +70,5 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 -- Set ColorColumn
-vim.cmd("highlight ColorColumn ctermbg=0 guibg=Yellow")
+vim.opt.colorcolumn = "80"
 

@@ -12,19 +12,7 @@
 require("lazy").setup({
   -- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
 
-  --"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
-
-  -- NOTE: Plugins can also be added by using a table,
-  -- with the first argument being the link and the following
-  -- keys can be used to configure plugin behavior/loading/etc.
-  --
-  -- Use `opts = {}` to force a plugin to be loaded.
-  --
-  --  This is equivalent to:
-  --    require('Comment').setup({})
-
-  -- "gc" to comment visual regions/lines
-  require("kickstart/plugins/comment"),
+  "tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
 
   require("kickstart/plugins/gitsigns"),
 
@@ -36,7 +24,7 @@ require("lazy").setup({
 
   require("kickstart/plugins/cmp"),
 
-  require("kickstart/plugins/kanagawa"),
+  require("kickstart/plugins/catppuccin"),
 
   require("kickstart/plugins/todo-comments"),
 
@@ -46,12 +34,19 @@ require("lazy").setup({
 
   require("kickstart/plugins/autopairs"),
 
+  require("kickstart/plugins/oil"),
+
+  require("kickstart/plugins/indent_line"),
+
+  require("kickstart/plugins/undotree"),
+
+  require("kickstart/plugins/trouble"),
+
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   --    For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
-  -- { import = 'custom.plugins' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
