@@ -4,3 +4,4 @@
 vim.g.snacks_animate = false
 vim.o.scrolloff = 10
 vim.opt.spelllang = { "en", "es" }
+vim.o.textwidth = 88
