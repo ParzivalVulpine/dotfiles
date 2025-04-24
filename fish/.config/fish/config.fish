@@ -98,7 +98,6 @@ alias zi=__zoxide_zi
 # ~/.config/fish/config.fish):
 #
 
-
 if status is-interactive
     fzf --fish | source
     starship init fish | source
