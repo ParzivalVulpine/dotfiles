@@ -2,7 +2,7 @@
 
 #Stow dotfiles
 sudo pacman -S stow
-./stow-this.sh
+./stow_this.sh
 
 sudo pacman -S rustup
 rustup default stable
