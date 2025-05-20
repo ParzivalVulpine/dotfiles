@@ -1,7 +1,14 @@
 #!/usr/bin/env bash
 
+#Stow dotfiles
+sudo pacman -S stow
+./stow-this.sh
+
+sudo pacman -S rustup
+rustup default stable
+
 #Install paru
-sudo pacman -S --needed base-devel git
+sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
@@ -13,17 +20,21 @@ sudo shiny-mirrors config -c Global, Argentina, Brazil, Colombia, Ecuador, Peru,
 
 sudo shiny-mirrors refresh
 
-#Stow dotfiles
-git clone https://github.com/ParzivalVulpine/dotfiles
-cd dotfiles/
-./stow-this.sh
-
 #Download packages
 #CLI stuff
-paru -S base base-devel fish slack-desktop github-cli btop man-db neovim xdg-utils xdg-ninja xdg-desktop-portal-hyprland starship thefuck tmux fastfetch stow lazygit tldr
+paru -S base base-devel fish slack-desktop github-cli btop man-db neovim xdg-utils xdg-ninja xdg-desktop-portal-hyprland starship thefuck tmux fastfetch stow lazygit tldr zoxide fastfetch
+
+#ags-hyprpanel-git
+sudo pacman -S --needed wireplumber libgtop bluez bluez-utils btop dart-sass wl-clipboard brightnessctl swww python upower pacman-contrib power-profiles-daemon gvfs wf-recorder
+yay -S --needed aylurs-gtk-shell-git grimblast-git hyprpicker matugen-bin hyprsunset-git
 
 #Utils
-paru -S hypridle hyprlock hyprpanel hyprpaper hyprpicker hyprpolkitagent hyprsysteminfo rofi-wayland ttf-space-mono-nerd
+paru -S hypridle hyprlock ags-hyprpanel-git hyprpaper hyprpicker hyprpolkitagent hyprsysteminfo rofi-wayland ttf-space-mono-nerd
 
 #Desktop Apps
-paru -S ghostty google-chrome slack-desktop spotify discord godot thunderbird telegram steam
+paru -S ghostty google-chrome slack-desktop spotify discord godot thunderbird telegram-desktop
+
+#Neovim deps
+paru -S fzf curl ripgrep fd tree-sitter-cli
+
+sudo reboot now
