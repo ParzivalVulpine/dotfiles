@@ -1,6 +1,7 @@
 return {
   {
     "neovim/nvim-lspconfig",
+    version = "1.11.0",
     opts = {
       servers = {
         gdscript = {},
@@ -20,5 +21,9 @@ return {
         tailwindcss = {},
       },
     },
+  },
+  {
+    "mason-org/mason-lspconfig.nvim",
+    version = "1.32.0",
   },
 }
