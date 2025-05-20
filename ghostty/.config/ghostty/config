@@ -1,6 +1,6 @@
 theme = GruvboxDark
 shell-integration = fish
-font-family = SpaceMono Nerd Font SpaceMono
+font-family = SpaceMono Nerd Font
 font-size = 15
 window-padding-x = 0
 window-padding-y = 0
