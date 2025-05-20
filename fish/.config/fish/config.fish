@@ -106,7 +106,7 @@ if status is-interactive
 end
 
 function fish_greeting
-    fortune -se linuxcookie computers | cowsay -f tux | lolcat -t
+    fastfetch
 end
 
 # >>> conda initialize >>>
