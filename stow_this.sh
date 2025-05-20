@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create an array of folder names
-folders=("nvim" "fish" "starship" "btop" "gh" "ghostty" "godot" "thefuck" "tmux" "commitlint" "uwsm" "rofi" "hypr" "hyprpanel")
+folders=("nvim" "fish" "starship" "btop" "gh" "ghostty" "godot" "thefuck" "tmux" "commitlint" "uwsm" "rofi" "hypr" "hyprpanel" "git")
 
 # Loop through each folder in the array
 for folder in "${folders[@]}"; do

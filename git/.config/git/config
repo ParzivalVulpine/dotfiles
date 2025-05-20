@@ -1,0 +1,11 @@
+[core]
+  editor = nvim
+[user]
+  name = ParzivalVulpine
+  email = dgaitan@calicofox.dev
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
