@@ -20,10 +20,10 @@ cd dotfiles/
 
 #Download packages
 #CLI stuff
-paru -S base base-devel fish slack-desktop github-cli btop man-db neovim xdg-utils xdg-ninja xdg-desktop-portal-hyprland starship thefuck tmux fastfetch stow lazygit
+paru -S base base-devel fish slack-desktop github-cli btop man-db neovim xdg-utils xdg-ninja xdg-desktop-portal-hyprland starship thefuck tmux fastfetch stow lazygit tldr
 
 #Utils
-paru -S hypridle hyprlock hyprpanel hyprpaper hyprpicker hyprpolkitagent hyprsysteminfo rofi-wayland
+paru -S hypridle hyprlock hyprpanel hyprpaper hyprpicker hyprpolkitagent hyprsysteminfo rofi-wayland ttf-space-mono-nerd
 
 #Desktop Apps
 paru -S ghostty google-chrome slack-desktop spotify discord godot thunderbird telegram steam
