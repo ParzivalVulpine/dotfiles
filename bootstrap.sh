@@ -27,8 +27,3 @@ paru -S hypridle hyprlock hyprpanel hyprpaper hyprpicker hyprpolkitagent hyprsys
 
 #Desktop Apps
 paru -S ghostty google-chrome slack-desktop spotify discord godot thunderbird telegram steam
-
-git clone https://github.com/ParzivalVulpine/dotfiles
-cd dotfiles/
-./stow-this.sh
-
