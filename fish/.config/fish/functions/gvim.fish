@@ -1,4 +1,4 @@
-function gvim --wraps='nvim --listen /tmp/godothost' --description 'alias gvim=nvim --listen /tmp/godothost'
-  nvim --listen /tmp/godothost $argv
-        
+function gvim --wraps='nvim --listen /tmp/nvim-server.pipe' --description 'alias gvim=nvim --listen /tmp/nvim-server.pipe'
+    nvim --listen /tmp/nvim-server.pipe
+
 end
