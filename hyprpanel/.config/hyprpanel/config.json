@@ -456,5 +456,8 @@
   "theme.bar.buttons.modules.worldclock.text": "#d3869b",
   "theme.bar.buttons.modules.worldclock.icon": "#d3869b",
   "theme.bar.buttons.modules.worldclock.icon_background": "#d3869b",
-  "theme.bar.buttons.modules.worldclock.border": "#d3869b"
+  "theme.bar.buttons.modules.worldclock.border": "#d3869b",
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }

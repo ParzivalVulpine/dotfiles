@@ -9,3 +9,9 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+[url "https://github.com/"]
+	insteadOf = git://github.com/
+[url "https://"]
+	insteadOf = git://
+[init]
+	defaultBranch = main
