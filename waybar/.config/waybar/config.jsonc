@@ -7,7 +7,7 @@
   "gtk-layer-shell": true,
   "height": 32,
   "modules-left": [
-    "user",
+    "custom/parz",
     "hyprland/workspaces",
     "tray",
     "mpris"
@@ -23,12 +23,9 @@
     "memory",
     "clock"
   ],
-  "user": {
-    "format": "🦊 parz @ arch",
-    "interval": 60,
-    "height": 30,
-    "width": 60,
-    "icon": true
+  "custom/parz": {
+    "on-click": "~/dotfiles/powermenu.sh",
+    "format": "🦊 parz @ arch "
   },
   "hyprland/workspaces": {
     "disable-scroll": true,
@@ -49,6 +46,7 @@
   "mpris": {
     "format": "{player_icon}{status_icon} {title} - {artist}",
     "tooltip-format": "{dynamic}",
+    "max-length": 40,
     "player-icons": {
       "chromium": " ",
       "spotify": " "
@@ -95,7 +93,7 @@
     "tooltip-format": "Memory - {used:0.1f}GB used"
   },
   "clock": {
-    "format": " {:%R %a %d/%m/%y}",
+    "format": "  {:%I:%M %p  %a %d/%m/%y}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   }
 }

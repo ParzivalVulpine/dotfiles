@@ -22,7 +22,7 @@ tooltip {
   border-color: @overlay;
 }
 
-#custom-power_profile,
+
 #window,
 #clock,
 #battery,
@@ -36,7 +36,7 @@ tooltip {
 #mpris,
 #tray,
 #memory,
-#user,
+#custom-parz,
 #backlight {
   background: @base;
   opacity: 0.9;
@@ -127,10 +127,10 @@ tooltip {
   padding-left: 10px;
 }
 
-#user {
-  background: @base;
+#custom-parz {
+  background-color: @base;
   border-radius: 8px;
-  margin-left: 15px;
+  margin-left: 10px;
   padding-right: 5px;
   padding-left: 10px;
 }
@@ -159,6 +159,7 @@ window#waybar.empty #window {
   background: @pine;
   border-radius: 8px;
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 #network {
