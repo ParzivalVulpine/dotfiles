@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export EDITOR:nvim
+SETUVAR --export EDITOR:/sbin/nvim
 SETUVAR --export ELECTRON_OZONE_PLATFORM_HINT:wayland
 SETUVAR --export PGUSER:parz
 SETUVAR __fish_initialized:3800
