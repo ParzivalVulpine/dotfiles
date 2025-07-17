@@ -165,6 +165,7 @@ window#waybar.empty #window {
 #network {
   color: @love;
   border-radius: 8px 8px 8px 8px;
+  min-width: 200px;
 }
 
 #wireplumber {
