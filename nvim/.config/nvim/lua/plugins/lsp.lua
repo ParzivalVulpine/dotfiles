@@ -25,6 +25,7 @@ return {
             },
           },
         },
+        pyright = {},
         templ = {},
         gopls = {},
         html = {},
