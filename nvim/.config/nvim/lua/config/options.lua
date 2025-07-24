@@ -6,3 +6,8 @@ vim.g.lazyvim_prettier_needs_config = false
 vim.o.scrolloff = 999
 vim.opt.spelllang = { "en", "es" }
 vim.o.textwidth = 88
+if vim.g.neovide then
+  vim.g.neovide_refresh_rate = 180
+  vim.g.neovide_hide_mouse_when_typing = true
+  vim.g.neovide_fullscreen = true
+end
