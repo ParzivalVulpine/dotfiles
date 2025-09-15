@@ -156,9 +156,10 @@ symbol = " "
 
 [python]
 style = "bg:overlay fg:pine"
-format = " [](fg:overlay)[ $symbol$version ]($style)[](fg:overlay)"
+# Show venv name if active, else show Python version
+format = " [](fg:overlay)[ $symbol($virtualenv )$version ]($style)[](fg:overlay)"
 disabled = false
-symbol = ' '
+symbol = " "
 
 [conda]
 style = "bg:overlay fg:pine"
