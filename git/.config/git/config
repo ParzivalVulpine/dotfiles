@@ -3,6 +3,7 @@
 [user]
   name = ParzivalVulpine
   email = dgaitan@calicofox.dev
+	signingkey = /home/parz/.ssh/id_ed25519.pub
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
@@ -15,3 +16,5 @@
 	insteadOf = git://
 [init]
 	defaultBranch = main
+[gpg]
+	format = ssh
