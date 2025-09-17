@@ -3,9 +3,12 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
-        pyright = {
-          enabled = false,
-          mason = false,
+        pyright = { enabled = false },
+        ty = {
+          settings = {
+            diagnosticMode = "workspace",
+            experimental = { rename = true },
+          },
         },
       },
     },
