@@ -35,6 +35,7 @@ tooltip {
 #cpu,
 #mpris,
 #tray,
+#language,
 #memory,
 #custom-parz,
 #backlight {
@@ -172,5 +173,14 @@ window#waybar.empty #window {
   color: @iris;
   border-radius: 8px 8px 8px 8px;
   margin-right: 10px;
+}
+
+#language {
+  color: @text;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-right: 0px;
+  padding: 0px 8px;
+  min-width: 30px;
 }
 
