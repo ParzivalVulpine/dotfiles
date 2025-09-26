@@ -7,7 +7,7 @@ return {
         ty = {
           settings = {
             diagnosticMode = "workspace",
-            experimental = { rename = true },
+            experimental = { rename = true, autoImport = true },
           },
         },
       },
