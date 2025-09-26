@@ -1,11 +1,12 @@
-theme = rose-pine
+theme = Rose Pine
 shell-integration = fish
-font-family = SpaceMono Nerd Font
+font-family = ""
+font-family = JetBrainsMono Nerd Font Mono
 font-size = 15
 window-padding-x = 0
 window-padding-y = 0
 window-padding-color = extend
 window-padding-balance = true
-font-feature = -calt
-font-feature = -liga
-font-feature = -dlig
+font-feature = +calt
+font-feature = +liga
+font-feature = +dlig
