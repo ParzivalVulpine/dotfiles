@@ -4,6 +4,7 @@
 vim.g.snacks_animate = false
 vim.g.lazyvim_prettier_needs_config = false
 vim.g.lazyvim_python_ruff = "ruff"
+vim.g.lazyvim_python_lsp = "basedpyright"
 vim.o.scrolloff = 999
 vim.opt.spelllang = { "en", "es" }
 vim.o.textwidth = 88
