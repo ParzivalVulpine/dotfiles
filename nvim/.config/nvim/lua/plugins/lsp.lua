@@ -8,10 +8,12 @@ return {
         init_options = {
           settings = {
             configurationPreference = "filesystemFirst",
+            showSyntaxErrors = false,
           },
         },
       },
       ty = {
+        root_markers = { "ty.toml", "pyproject.toml", "setup.py", "setup.cfg", ".git" },
         settings = {
           ty = {
             experimental = { rename = true, autoImport = true },
@@ -21,6 +23,7 @@ return {
       },
       html = {},
       htmx = {},
+      basedpyright = { enabled = false },
     },
   },
 }
