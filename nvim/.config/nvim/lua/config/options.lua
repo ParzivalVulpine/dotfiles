@@ -7,6 +7,7 @@ vim.g.lazyvim_python_ruff = "ruff"
 vim.g.lazyvim_python_lsp = "basedpyright"
 vim.o.scrolloff = 999
 vim.opt.spelllang = { "en", "es" }
+--vim.diagnostic.config({ virtual_lines = true })
 vim.o.textwidth = 80
 if vim.g.neovide then
   vim.g.neovide_refresh_rate = 180

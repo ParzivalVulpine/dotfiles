@@ -7,10 +7,4 @@ return {
       },
     },
   },
-  {
-    "mfussenegger/nvim-lint",
-    opts = {
-      python = { "ruff" },
-    },
-  },
 }
