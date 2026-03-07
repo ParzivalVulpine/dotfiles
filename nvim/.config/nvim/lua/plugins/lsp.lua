@@ -26,6 +26,7 @@ return {
       },
       html = {},
       htmx = {},
+      marksman = {},
       basedpyright = { enabled = false },
     },
   },
