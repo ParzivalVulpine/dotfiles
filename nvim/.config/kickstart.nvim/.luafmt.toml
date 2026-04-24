@@ -1,0 +1,24 @@
+[syntax]
+level = "LuaJIT"
+
+[output]
+insert_final_newline = true
+trailing_comma = "Multiline"
+trailing_table_separator = "Inherit"
+quote_style = "Double"
+
+[layout]
+max_line_width = 100
+table_expand = "Auto"
+call_args_expand = "Auto"
+func_params_expand = "Auto"
+
+[comments]
+align_in_statements = false
+align_in_table_fields = true
+align_in_call_args = true
+align_in_params = true
+
+[align]
+continuous_assign_statement = false
+table_field = true

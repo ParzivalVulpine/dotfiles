@@ -7,6 +7,7 @@ return {
       virtual_lines = true,
     },
     servers = {
+      -- Python
       ruff = {
         init_options = {
           settings = {
@@ -24,10 +25,19 @@ return {
           },
         },
       },
+      -- HTML
       html = {},
       htmx = {},
-      marksman = {},
-      basedpyright = { enabled = false },
+      -- CSS
+      tailwindcss = {},
+      cssls = { enabled = false },
+      --Typescript
+      oxfmt = {},
+      oxlint = {},
+      -- Elixir
+      elixirls = { ensure_installed = true },
+      -- Lua
+      emmylua_ls = {},
     },
   },
 }
