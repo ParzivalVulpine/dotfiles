@@ -23,6 +23,13 @@ return {
       end
     end,
   },
+  {
+    "folke/which-key.nvim",
+    event = "VeryLazy",
+    opts = {
+      preset = "helix",
+    },
+  },
   { "MunifTanjim/nui.nvim", lazy = true },
   { "nvim-lua/plenary.nvim", lazy = true },
 }
